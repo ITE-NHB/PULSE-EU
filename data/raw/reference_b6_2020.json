@@ -1,0 +1,272 @@
+{
+    "AT": {
+        "Scope 1": {
+            "Non-residential": 1.3,
+            "Residential": 6.78
+        },
+        "Scope 2": {
+            "Non-residential": 1.98,
+            "Residential": 3.28
+        }
+    },
+    "BE": {
+        "Scope 1": {
+            "Non-residential": 5.38,
+            "Residential": 15.28
+        },
+        "Scope 2": {
+            "Non-residential": 1.54,
+            "Residential": 1.57
+        }
+    },
+    "BG": {
+        "Scope 1": {
+            "Non-residential": 0.34,
+            "Residential": 1.02
+        },
+        "Scope 2": {
+            "Non-residential": 0.9204,
+            "Residential": 1.72
+        }
+    },
+    "HR": {
+        "Scope 1": {
+            "Non-residential": 0.58,
+            "Residential": 1.89
+        },
+        "Scope 2": {
+            "Non-residential": 0.3068,
+            "Residential": 0.4
+        }
+    },
+    "CY": {
+        "Scope 1": {
+            "Non-residential": 0.09,
+            "Residential": 0.33
+        },
+        "Scope 2": {
+            "Non-residential": 0.336,
+            "Residential": 0.34
+        }
+    },
+    "CZ": {
+        "Scope 1": {
+            "Non-residential": 2.69,
+            "Residential": 8.46
+        },
+        "Scope 2": {
+            "Non-residential": 5.1636,
+            "Residential": 7.0
+        }
+    },
+    "DK": {
+        "Scope 1": {
+            "Non-residential": 0.7,
+            "Residential": 1.69
+        },
+        "Scope 2": {
+            "Non-residential": 0.8211,
+            "Residential": 1.35
+        }
+    },
+    "EE": {
+        "Scope 1": {
+            "Non-residential": 0.24,
+            "Residential": 0.18
+        },
+        "Scope 2": {
+            "Non-residential": 0.6708,
+            "Residential": 0.92
+        }
+    },
+    "FI": {
+        "Scope 1": {
+            "Non-residential": 1.08,
+            "Residential": 1.13
+        },
+        "Scope 2": {
+            "Non-residential": 2.0513,
+            "Residential": 2.89
+        }
+    },
+    "FR": {
+        "Scope 1": {
+            "Non-residential": 20.15,
+            "Residential": 40.23
+        },
+        "Scope 2": {
+            "Non-residential": 3.868,
+            "Residential": 5.1
+        }
+    },
+    "DE": {
+        "Scope 1": {
+            "Non-residential": 32.7,
+            "Residential": 89.75
+        },
+        "Scope 2": {
+            "Non-residential": 13.0732,
+            "Residential": 17.34
+        }
+    },
+    "EL": {
+        "Scope 1": {
+            "Non-residential": 0.58,
+            "Residential": 5.24
+        },
+        "Scope 2": {
+            "Non-residential": 1.2726,
+            "Residential": 1.51
+        }
+    },
+    "HU": {
+        "Scope 1": {
+            "Non-residential": 2.8,
+            "Residential": 8.18
+        },
+        "Scope 2": {
+            "Non-residential": 0.675,
+            "Residential": 1.23
+        }
+    },
+    "IE": {
+        "Scope 1": {
+            "Non-residential": 1.53,
+            "Residential": 7.36
+        },
+        "Scope 2": {
+            "Non-residential": 0.902,
+            "Residential": 0.68
+        }
+    },
+    "IT": {
+        "Scope 1": {
+            "Non-residential": 23.88,
+            "Residential": 47.53
+        },
+        "Scope 2": {
+            "Non-residential": 3.5397,
+            "Residential": 3.6
+        }
+    },
+    "LV": {
+        "Scope 1": {
+            "Non-residential": 0.44,
+            "Residential": 0.56
+        },
+        "Scope 2": {
+            "Non-residential": 0.442,
+            "Residential": 0.62
+        }
+    },
+    "LT": {
+        "Scope 1": {
+            "Non-residential": 0.27,
+            "Residential": 0.88
+        },
+        "Scope 2": {
+            "Non-residential": 0.2592,
+            "Residential": 0.4
+        }
+    },
+    "LU": {
+        "Scope 1": {
+            "Non-residential": 0.55,
+            "Residential": 1.04
+        },
+        "Scope 2": {
+            "Non-residential": 0.078,
+            "Residential": 0.04
+        }
+    },
+    "MT": {
+        "Scope 1": {
+            "Non-residential": 0.08,
+            "Residential": 0.04
+        },
+        "Scope 2": {
+            "Non-residential": 0.1215,
+            "Residential": 0.11
+        }
+    },
+    "NL": {
+        "Scope 1": {
+            "Non-residential": 6.37,
+            "Residential": 15.43
+        },
+        "Scope 2": {
+            "Non-residential": 2.36,
+            "Residential": 1.59
+        }
+    },
+    "PL": {
+        "Scope 1": {
+            "Non-residential": 6.03,
+            "Residential": 34.98
+        },
+        "Scope 2": {
+            "Non-residential": 20.2365,
+            "Residential": 25.31
+        }
+    },
+    "PT": {
+        "Scope 1": {
+            "Non-residential": 0.97,
+            "Residential": 2.23
+        },
+        "Scope 2": {
+            "Non-residential": 0.7104,
+            "Residential": 0.66
+        }
+    },
+    "RO": {
+        "Scope 1": {
+            "Non-residential": 2.09,
+            "Residential": 8.47
+        },
+        "Scope 2": {
+            "Non-residential": 1.316,
+            "Residential": 2.86
+        }
+    },
+    "SK": {
+        "Scope 1": {
+            "Non-residential": 1.16,
+            "Residential": 3.16
+        },
+        "Scope 2": {
+            "Non-residential": 1.0404,
+            "Residential": 1.47
+        }
+    },
+    "SI": {
+        "Scope 1": {
+            "Non-residential": 0.34,
+            "Residential": 0.79
+        },
+        "Scope 2": {
+            "Non-residential": 0.3686,
+            "Residential": 0.46
+        }
+    },
+    "ES": {
+        "Scope 1": {
+            "Non-residential": 9.11,
+            "Residential": 16.18
+        },
+        "Scope 2": {
+            "Non-residential": 1.9926,
+            "Residential": 2.23
+        }
+    },
+    "SE": {
+        "Scope 1": {
+            "Non-residential": 0.65,
+            "Residential": 0.58
+        },
+        "Scope 2": {
+            "Non-residential": 0.6655,
+            "Residential": 1.1
+        }
+    }
+}

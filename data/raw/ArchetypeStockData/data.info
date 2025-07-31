@@ -1,0 +1,2 @@
+To run the model, this folder must contain the Archetype Stock data, which will be published in the future.
+Each country has its own parquet file, which follows this naming scheme: [EU two letter Country Code].parquet (E.g.: at.parquet, it.parquet, el.parquet).
