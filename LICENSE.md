@@ -16,11 +16,12 @@ The Software is provided only as a source.
 
 In case of using the Software for a publication or other results obtained through the use of the Software, user should cite the Software as follows:
 
-@article{Alaux2025,
+@article{Alaux2026,
 author = {Alaux, Nicolas and Bechstedt, Nicolas and Zhong, Xiaoyang and Mastrucci, Alessio and Ramon, Delphine and Steinberger-Maierhofer, Dominik and Allacker, Karen and Passer, Alexander and Röck, Martin
 },
 title = {Context-specific life cycle emissions pathways for EU buildings and construction},
-journal = {Nature Communications (accepted)}
+journal = {Nature Communications (accepted)},
+year = {2026}
 }
 
 Every user of the Software could communicate to the developers alexander.passer@tugraz.at his or her remarks as to the use of the Software.
