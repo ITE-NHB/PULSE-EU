@@ -188,51 +188,56 @@ An example of a Commitments file can be found in [data/Commitments/BAU Commitmen
 When creating a new Commitments file, the user should make sure to follow the same naming scheme and have at least a column for every major CRS code like the example file, to allow a successful parsing of the file by the model.
 
 
-## External Input Data - Sources and Usage
+## External Input Data - Sources and Short Description
 
 - **ArchetypeEmissionData**
-  - **Source:** The data and its sources are being prepared for open-access publication. The corresponding authors can be contacted for further information until publication.
-  - **Usage:** Life cycle assessment results of the building archetypes in the baseline year using the [SLiCE structure](https://doi.org/10.1016/j.spc.2024.01.005).
+  - **Source:** [Harmonised database on materials, energy flows and environmental impacts for building archetypes representing the EU27 building stock](https://rdr.kuleuven.be/dataset.xhtml?persistentId=doi:10.48804/VXJUEW)
+  - **Short description:** Aggregated life cycle assessment results of the building archetypes in the baseline year using the [SLiCE structure](https://doi.org/10.1016/j.spc.2024.01.005). Full access requires a license to the ecoinvent database (version 3.6). The corresponding authors can be contacted for more information.
 
 - **ArchetypeStockData**
-  - **Source:** The data and its sources are being prepared for open-access publication. The corresponding authors can be contacted for further information until publication.
-  - **Usage:** Basic data regarding the building archetypes (geometry, number in stock, etc.) in the baseline year.
+  - **Source:** Compiled from: 
+    - [AmBIENCe](https://www.bpie.eu/wp-content/uploads/2022/02/AmBIENCe_D4.1_Database-of-grey-box-model-parameter-values-for-EU-building-typologies-update-version-2-submitted.pdf)
+    - [Buiding Stock Observatory](https://building-stock-observatory.energy.ec.europa.eu/factsheets/)
+    - [Cost-effectiveness studies](https://circabc.europa.eu/ui/group/092d1141-bdbc-4dbe-9740-aa72b045e8b3/library/809a0742-2eb9-4797-bf16-a2d269d5c6d0?p=1&n=10&sort=modified_DESC)
+    - [Hotmaps](https://www.hotmaps-project.eu/wp-content/uploads/2020/09/brochure-hotmaps-2020-web.pdf) 
+    - [TABULA/EPISCOPE](https://episcope.eu/building-typology/tabula-webtool/)
+  - **Short description:** Basic data regarding the building archetypes (geometry, number in stock, etc.) in the baseline year.
 
 - **floor_area_increase_calibrated.json**
   - **Source:** Calculated by iteratively adjusting the increase factors so that the model output matches 80% of the residential construction permits as closely as possible. Clamped between 0.5% and 100%.
-  - **Usage:** Calculation of the default floor area increase to 2050.
+  - **Short description:** Calculation of the default floor area increase to 2050.
 
 - **Population_1800_2021.csv**
   - **Source:** [Our World in Data: Population](https://ourworldindata.org/grapher/population)
-  - **Usage:** Historic population data for more precise distribution of past building constructions.
+  - **Short description:** Historic population data for more precise distribution of past building constructions.
 
 - **Population_2019_2050.xlsx**
   - **Source:** [Eurostat: Population on 1st January by age, sex and type of projection](https://ec.europa.eu/eurostat/databrowser/view/proj_19np__custom_12955800/default/table)
-  - **Usage:** Future population projections for the estimation new building demand.
+  - **Short description:** Future population projections for the estimation new building demand.
 
 - **population_type_distribution.csv**
   - **Source:** [Eurostat: Distribution of population by degree of urbanisation, dwelling type and income group](https://ec.europa.eu/eurostat/databrowser/view/ilc_lvho01__custom_12955981/) (aggregated)
-  - **Usage:** Used to distribute the population among the different residential archetypes.
+  - **Short description:** Used to distribute the population among the different residential building archetypes.
 
 - **construction_ep_rates.csv**
   - **Source:** [Publications Office of the European Union: Comprehensive study of building energy renovation activities and the uptake of nearly zero-energy buildings in the EU](https://op.europa.eu/publication-detail/-/publication/97d6a4ca-5847-11ea-8b81-01aa75ed71a1)
-  - **Usage:** Default distribution of energy performance types among new buildings.
+  - **Short description:** Default distribution of energy performance types among new buildings.
 
 - **eurostat_permits_nonres.xlsx**
   - **Source:** [Eurostat: Building permits - annual data](https://ec.europa.eu/eurostat/databrowser/view/sts_cobp_a__custom_13619462/)
-  - **Usage:** Calculation of reference construction rates for non-residential buildings.
+  - **Short description:** Calculation of reference construction rates for non-residential buildings.
 
 - **eurostat_permits_res.xlsx**
   - **Source:** [Eurostat: Building permits - annual data](https://ec.europa.eu/eurostat/databrowser/view/sts_cobp_a__custom_13619462/)
-  - **Usage:** Calculation of floor area increase.
+  - **Short description:** Calculation of useful floor area increase.
 
 - **reference_construction_rate_non_res.csv**
   - **Source:** Calculated using the average construction permits from 2014 to 2023 divided by the stock floor area in 2020.
-  - **Usage:** Calculation of the construction area of non-residential buildings (80% of the permits, or 80% of the reference construction rate).
+  - **Short description:** Calculation of the construction area of non-residential buildings (80% of the permits, or 80% of the reference construction rate).
 
 - **refurbishment_distribution.json**
   - **Source:** [Ebenbichler et al., 2021](https://www.tirol.gv.at/fileadmin/themen/umwelt/wasser_wasserrecht/Downloads/19-03-08_Szenarien-Tirol-2050_Endbericht-Stand-18-10-15.pdf)
-  - **Usage:** Calculation of the distribution of refurbishment budget among the archetypes based on typology and building epoch.
+  - **Short description:** Calculation of the distribution of refurbishment budget among the archetypes based on typology and building epoch.
 
 - **weibull.json**
   - **Sources:**
@@ -241,11 +246,11 @@ When creating a new Commitments file, the user should make sure to follow the sa
     - [Andersen et al., 2023](https://www.sciencedirect.com/science/article/pii/S2352710222017028)
     - [Heeren et al., 2015](https://pubs.acs.org/doi/10.1021/acs.est.5b01735)
     - [Deetman et al., 2020](https://www.sciencedirect.com/science/article/pii/S0959652619335280)
-  - **Usage:** Calculation of the demolition probabilities of buildings based on age and typology.
+  - **Short description:** Calculation of the demolition probabilities of buildings based on age and typology.
 
 - **reference_b6_2020.json**
   - **Source:** [BSO - EU Building Stock Observatory](https://building-stock-observatory.energy.ec.europa.eu/database/) retracted from appliances using ratios from the [EUcalc](https://tool.european-calculator.eu/)
-  - **Usage:** Calibration of B6 emissions for the year 2020 (for heating, cooling and ventilation).
+  - **Short description:** Calibration of B6 emissions for the year 2020 (for heating, cooling, ventilation and air conditioning).
 
 ## Credits and contact:
 **Main programmer**: Nicolas Bechstedt
