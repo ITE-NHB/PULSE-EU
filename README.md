@@ -167,17 +167,17 @@ The Commitments file is structured as follows:
   ```
   Scenario Name | Default | CRS 1 | CRS 1.1 | CRS 2 | CRS 2.1
   -----------------------------------------------------------
-  Scen_A        | 0.5     | 0.6   |         |       |
-  Scen_B        | 0       |       | 0.7     |       |
+  Scen_A        | 50      | 60    |         |       |
+  Scen_B        | 0       |       | 70      |       |
   ```
   would resolve to:
   ```
   Scenario Name | Default | CRS 1 | CRS 1.1 | CRS 2 | CRS 2.1
   -----------------------------------------------------------
-  Scen_A        | 0.5     | 0.6   | 0.6     | 0.5   | 0.5
-  Scen_B        | 0       | 0     | 0.7     | 0     | 0
+  Scen_A        | 50      | 60    | 60      | 50    | 50
+  Scen_B        | 0       | 0     | 70      | 0     | 0
   ```
-  Note that the values of parent CRS codes in the resolved table do not impact the values of child CRS codes, so the value of `CRS 1.1` in `Scen_B` is still `0.7`, even though the parent `CRS 1` has taken on the value `0` from the `Default` column.
+  Note that the values of parent CRS codes in the resolved table do not impact the values of child CRS codes, so the value of `CRS 1.1` in `Scen_B` is still `70`, even though the parent `CRS 1` has taken on the value `0` from the `Default` column.
 
 - You may also remove sub CRS columns. But due to current code limitations, you must either have all sub CRS columns for a parent CRS code, or none at all. This means that if you have `CRS 1` and `CRS 1.1`, you must also have `CRS 1.2`, `CRS 1.3`, etc., even if they are empty.
 
