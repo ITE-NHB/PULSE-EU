@@ -195,7 +195,7 @@ When creating a new Commitments file, the user should make sure to follow the sa
   - **Short description:** Aggregated life cycle assessment results of the building archetypes in the baseline year using the [SLiCE structure](https://doi.org/10.1016/j.spc.2024.01.005). Full access requires a license to the ecoinvent database (version 3.6). The corresponding authors can be contacted for more information.
 
 - **ArchetypeStockData**
-  - **Source:** Compiled from: 
+  - **Source:** This was compiled with the support of all partners involved in the [EU-WLC study](https://c.ramboll.com/life-cycle-emissions-of-eu-building-and-construction) from these sources: 
     - [AmBIENCe](https://www.bpie.eu/wp-content/uploads/2022/02/AmBIENCe_D4.1_Database-of-grey-box-model-parameter-values-for-EU-building-typologies-update-version-2-submitted.pdf)
     - [Buiding Stock Observatory](https://building-stock-observatory.energy.ec.europa.eu/factsheets/)
     - [Cost-effectiveness studies](https://circabc.europa.eu/ui/group/092d1141-bdbc-4dbe-9740-aa72b045e8b3/library/809a0742-2eb9-4797-bf16-a2d269d5c6d0?p=1&n=10&sort=modified_DESC)
